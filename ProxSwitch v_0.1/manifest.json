@@ -1,0 +1,34 @@
+{
+	"manifest_version": 2,
+	"name": "ProxSwitch", 
+	"version": "0.1",
+
+	"description": "Allows users to quickly switch between proxies in the browser.", 
+
+	"icons": {
+		"32": "icons/proxyicon32.png",
+		"64": "icons/proxyicon64.png"
+	},
+
+	"permissions": [
+		"storage",
+		"proxy"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/proxyicon32.png", 
+		"default_title": "Choose Proxy", 
+		"default_popup": "popup/interface.html"
+
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["ProxSwitch.js"]
+		}
+	], 
+
+	"web_accessible_resources": [
+	]
+}

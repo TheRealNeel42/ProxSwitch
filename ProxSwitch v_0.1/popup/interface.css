@@ -1,0 +1,120 @@
+body {
+	background-color: #d8d9d9;
+}
+
+.options {
+	padding: 15px 32px;
+	display: inline-block;
+	font: 16px;
+
+
+}
+
+.addOption {
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font: 16px;
+	border-radius: 5px;
+	width: 100%;
+	-webkit-transition-duration: 0.4s;
+}
+.addOption:hover {
+	background-color: #d8d9d9;
+	border: 2px solid green;
+	color:black;
+}
+
+.connectButton {
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font: 16px;
+	border-radius: 5px;
+	width: 45%;
+	-webkit-transition-duration: 0.4s
+
+}
+
+.connectButton:hover {
+	background-color: #d8d9d9;
+	border: 2px solid blue;
+	color:black;
+}
+
+.removeButton {
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font: 16px;
+	border-radius: 5px;
+	width: 45%;
+	-webkit-transition-duration: 0.4s
+
+}
+
+.removeButton:hover {
+	background-color: #d8d9d9;
+	border: 2px solid red;
+	color:black;
+}
+
+.submitProxyForm {
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font: 16px;
+	border-radius: 5px;
+	/*width: 100%;*/
+	-webkit-transition-duration: 0.4s
+	/*margin:10px;*/
+	margin-top: 20px;
+}
+
+.submitProxyForm:hover {
+	background-color: #d8d9d9;
+	border: 2px solid blue;
+	color:black;
+
+}
+
+.addNewProxyForm {
+	display: none;
+	width:100%;
+}
+
+#newproxyform {	
+	align-content: center;
+	padding: 15px 15px;
+}
+
+#newproxyform label{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#newproxyform input {
+	width: 80%;
+	margin: 10px;
+	padding: 5px;
+}
+
+#newproxyform button {
+	padding: 100px;
+}

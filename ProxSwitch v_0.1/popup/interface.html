@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="interface.css"/>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="interface.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<button class="addOption button">+ Add Proxy</button>
+		</div>		
+		<div class="main" id ="main">
+		<!-- Menu Goes here -->
+		</div>
+		<div class="addNewProxyForm">
+			<form id="newproxyform">
+				<label>URL Format: http://www.example.com:port<label>
+				<br>
+				<input type="text" name="name" id="name" placeholder="Friendly Name"><br>
+				<br>
+				<input type="text" name="url" id="url" placeholder="Server URL"><br>
+				<input type=""  value="Submit" class="submitProxyForm">
+			</form>
+		</div>
+		<div>
+			<button class="connectButton button">Connect</button>
+			<button class="removeButton button">Remove</button>
+		</div>
+	</body>
+</html>
